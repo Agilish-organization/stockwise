@@ -1,0 +1,25 @@
+:root { --fg:#1a1a1a; --muted:#666; --bg:#fafafa; --border:#e3e3e3; }
+* { box-sizing: border-box; }
+body { font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: var(--fg); background: var(--bg); margin: 0; }
+main { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+h1 { margin: 0 0 8px; font-size: 28px; }
+h2 { margin: 32px 0 12px; font-size: 18px; }
+.lead { color: var(--muted); margin-top: 0; }
+.actions { margin: 16px 0 24px; display: flex; gap: 12px; align-items: center; }
+form { display: inline-flex; gap: 8px; }
+input { padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; min-width: 280px; }
+button { padding: 8px 14px; border: 1px solid #222; background: #222; color: #fff; border-radius: 6px; cursor: pointer; }
+button:hover { background: #000; }
+table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: #f3f3f3; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: #444; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+td.strong { font-weight: 600; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.badge.red { background: #fde8e8; color: #b42318; }
+.badge.amber { background: #fef4e2; color: #b54708; }
+.badge.green { background: #e6f7ec; color: #027a48; }
+.badge.gray { background: #eee; color: #555; }
+.muted { color: var(--muted); }
+footer { text-align: center; color: var(--muted); padding: 24px; font-size: 13px; }
+ul { padding-left: 18px; }

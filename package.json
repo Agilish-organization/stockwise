@@ -1,0 +1,19 @@
+{
+  "name": "stockwise",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered inventory forecasting for small e-commerce brands.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node scripts/migrate.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
